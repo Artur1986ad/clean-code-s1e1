@@ -5,34 +5,39 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.information {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.information img {
   width: 100%;
 }
 
-.aaa .more_inf {
+.information
+.information_info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa {
+  .information {
     text-align: center;
   }
 }
 
-.centered-main-page-element {
+.form {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
 
-.task {
+.form-block-add{
+  margin: 20px 0 0;
+}
+
+.form-task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
